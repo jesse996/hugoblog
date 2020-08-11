@@ -376,7 +376,7 @@ enableRobotsTXT = true
       # Disqus 评论系统设置
       [params.page.comment.disqus]
         # 
-        enable = false
+        enable = true
         # Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
         shortname = "Jesse"
       # Gitalk 评论系统设置
@@ -410,7 +410,7 @@ enableRobotsTXT = true
         emoji = ""
       # Facebook 评论系统设置
       [params.page.comment.facebook]
-        enable = true
+        enable = false
         width = "100%"
         numPosts = 10
         appId = ""
