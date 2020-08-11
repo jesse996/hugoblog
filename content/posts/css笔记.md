@@ -1,5 +1,5 @@
 ---
-title: 'Css笔记'
+title: 'CSS笔记'
 date: 2018-08-11T20:35:34+08:00
 draft: false
 tags: ['CSS']

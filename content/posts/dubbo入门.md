@@ -2,6 +2,7 @@
 title: 'Dubbo入门'
 date: 2020-06-28
 draft: false
+tags: ['微服务']
 ---
 
 Dubbo 的功能除了基本的 RPC 职能外，核心功能便是监控及服务注册。
