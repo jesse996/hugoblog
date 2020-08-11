@@ -188,9 +188,9 @@ enableRobotsTXT = true
     [params.home.profile]
       enable = true
       # Gravatar 邮箱，用于优先在主页显示的头像
-      gravatarEmail = ""
+      gravatarEmail = "szx961102@gmail.com"
       # 主页显示头像的 URL
-      avatarURL = "/avatar.png"
+      avatarURL = ""
       #  主页显示的网站标题 (支持 HTML 格式)
       title = ""
       # 主页显示的网站副标题
