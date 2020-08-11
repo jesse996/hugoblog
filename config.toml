@@ -63,11 +63,6 @@ enableRobotsTXT = true
 [permalinks]
   posts = "/:year/:month/:title/"
 
-# [taxonomies]
-#   tag = "tags"
-#   category = "categories"
-#   series = "series"
-
 # ------------------loveIt---------------------------
 [params]
   #  LoveIt 主题版本
@@ -584,7 +579,7 @@ enableRobotsTXT = true
 # 用于 Hugo 输出文档的设置
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-  pages = ["HTML", "MarkDown"]
+  page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]
