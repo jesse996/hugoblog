@@ -84,7 +84,7 @@ enableRobotsTXT = true
   # ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
   #  日期格式
-  dateFormat = "2020-01-01"
+  dateFormat = "2006-01-02"
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["avatar.png"]
 
@@ -274,7 +274,7 @@ enableRobotsTXT = true
     XMPP = ""
     Matrix = ""
     Bilibili = ""
-    Email = "xxxx@xxxx.com"
+    Email = "szx961102@gmail.com"
     RSS = true # 
 
   #  文章页面配置
@@ -376,7 +376,7 @@ enableRobotsTXT = true
       # Disqus 评论系统设置
       [params.page.comment.disqus]
         # 
-        enable = true
+        enable = false
         # Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
         shortname = "Jesse"
       # Gitalk 评论系统设置
@@ -427,7 +427,7 @@ enableRobotsTXT = true
         outlined = false
       #  Commento 评论系统设置
       [params.page.comment.commento]
-        enable = false
+        enable = true
       #  Utterances 评论系统设置
       [params.page.comment.utterances]
         enable = false
