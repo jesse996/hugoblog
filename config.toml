@@ -410,7 +410,7 @@ enableRobotsTXT = true
         emoji = ""
       # Facebook 评论系统设置
       [params.page.comment.facebook]
-        enable = false
+        enable = true
         width = "100%"
         numPosts = 10
         appId = ""
@@ -430,7 +430,7 @@ enableRobotsTXT = true
         enable = false
       #  Utterances 评论系统设置
       [params.page.comment.utterances]
-        enable = true
+        enable = false
         # owner/repo
         repo = ""
         issueTerm = "pathname"
