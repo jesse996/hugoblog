@@ -1,12 +1,11 @@
 baseURL = "https://jesse996.github.io/"
-# baseURL = "http://www.jesse233.top/"
+# baseURL = "https://www.jesse233.top/"
 languageCode = "zh-CN"
 DefaultContentLanguage = "zh-cn"
 title = "Jesse's Blog"
 theme = "LoveIt"
 hasCJKLanguage = true
 enableEmoji = true
-# SectionPagesMenu = "main"  #set menu  
 Paginate = 6 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
@@ -64,10 +63,10 @@ enableRobotsTXT = true
 [permalinks]
   posts = "/:year/:month/:title/"
 
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  series = "series"
+# [taxonomies]
+#   tag = "tags"
+#   category = "categories"
+#   series = "series"
 
 # ------------------loveIt---------------------------
 [params]
@@ -159,9 +158,9 @@ enableRobotsTXT = true
     # 网站创立年份
     since = 2020
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-    icp = ""
+    icp = "鄂ICP备20000568号"
     # 许可协议信息 (支持 HTML 格式)
-    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    license = ''
 
   #  Section (所有文章) 页面配置
   [params.section]
@@ -456,7 +455,7 @@ enableRobotsTXT = true
       images = []
       # 出版者信息
       [params.page.seo.publisher]
-        name = ""
+        name = "宋志新"
         logoUrl = ""
 
   #  TypeIt 配置
@@ -550,7 +549,7 @@ enableRobotsTXT = true
       unsafe = true
   # 目录设置
   [markup.tableOfContents]
-    startLevel = 2
+    startLevel = 1
     endLevel = 6
 
 # 作者配置
