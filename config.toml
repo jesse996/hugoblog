@@ -38,33 +38,27 @@ enableRobotsTXT = true
     url = "/categories/"
     title = ""
     weight = 3
+  [[menu.main]]
+    identifier = "books"
+    pre = ""
+    post = ""
+    name = "书单"
+    url = "/books"
+    title = ""
+    weight = 4
+  [[menu.main]]
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "关于"
+    url = "/about"
+    title = ""
+    weight = 5
 
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
   filename = "sitemap.xml"
-
-# [params]
-#   favicon = "/images/favicon.svg"
-#   description = "The last theme you'll ever need. Maybe."
-#   facebook = ""
-#   twitter = ""
-#   instagram = ""
-#   youtube = ""
-#   github = "https://github.com/jesse996/"
-#   gitlab = ""
-#   linkedin = ""
-#   mastodon = ""
-#   slack = ""
-#   stackoverflow = ""
-#   rss = ""
-#   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-#   background_color_class = "bg-black"
-#   featured_image = "/images/img.jpg"
-#   # omit_header_text = true
-#   site_logo = ""
-#   recent_posts_number = 2
-#   show_reading_time=true
 
 [permalinks]
   posts = "/:year/:month/:title/"
@@ -92,7 +86,7 @@ enableRobotsTXT = true
   #  日期格式
   dateFormat = "2006-01-02"
   # 网站图片, 用于 Open Graph 和 Twitter Cards
-  images = ["images/avator.png"]
+  images = ["avator.png"]
 
   #  应用图标配置
   [params.app]
@@ -101,7 +95,7 @@ enableRobotsTXT = true
     # 是否隐藏网站图标资源链接
     noFavicon = false
     # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
-    svgFavicon = ""
+    svgFavicon = "/favicon.svg"
     # Android 浏览器主题色
     themeColor = "#ffffff"
     # Safari 图标颜色
@@ -140,7 +134,7 @@ enableRobotsTXT = true
     #  页面头部导航栏标题配置
     [params.header.title]
       # LOGO 的 URL
-      logo = "/images/favicon.svg"
+      logo = "/favicon.svg"
       # 标题名称
       name = "Jesse's Blog"
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
@@ -196,7 +190,7 @@ enableRobotsTXT = true
       # Gravatar 邮箱，用于优先在主页显示的头像
       gravatarEmail = ""
       # 主页显示头像的 URL
-      avatarURL = "/images/avator.png"
+      avatarURL = "/avator.png"
       #  主页显示的网站标题 (支持 HTML 格式)
       title = ""
       # 主页显示的网站副标题
@@ -589,9 +583,8 @@ enableRobotsTXT = true
 
 # 用于 Hugo 输出文档的设置
 [outputs]
-  # 
   home = ["HTML", "RSS", "JSON"]
-  page = ["HTML", "MarkDown"]
+  page = ["HTML", "MarkDown","JSON"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]
