@@ -39,8 +39,8 @@ enableRobotsTXT = true
   recent_posts_number = 2
   show_reading_time=true
 
-# [permalinks]
-#   post = "/:year/:month/:title/"
+[permalinks]
+  post = "/:year/:month/:title/"
 
 [taxonomies]
   tag = "tags"
