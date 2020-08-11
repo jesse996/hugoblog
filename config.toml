@@ -1,4 +1,5 @@
-baseURL = "https://jesse996.github.io/"
+# baseURL = "https://jesse996.github.io/"
+baseURL = "http://www.jesse233.top/"
 languageCode = "zh-CN"
 DefaultContentLanguage = "zh-cn"
 title = "Jesse's Blog"
