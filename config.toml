@@ -584,7 +584,7 @@ enableRobotsTXT = true
 # 用于 Hugo 输出文档的设置
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-  pages = ["HTML", "MarkDown","JSON"]
+  pages = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]

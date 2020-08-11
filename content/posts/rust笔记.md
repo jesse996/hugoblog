@@ -117,3 +117,25 @@ struct Executor {
     ready_queue: Receiver<Arc<Task>>
 }
 ```
+
+## 简单的 HashMap 初始化
+
+```rust
+vec![('d',5),('c',1)].into_iter().collect::<HashMap<char,i32>>();
+```
+
+```rust
+fn main() {
+    let source = "你好你是谁";
+    // first find the byte index, then find the corresponding character index
+    // (code point index)
+    // this goes through the source twice though :(
+    let char_index = source.find("你是").map(|found_byte_index| {
+        source
+            .char_indices()
+            .position(|(byte_index, _)| byte_index == found_byte_index)
+            .unwrap()
+    });
+    dbg!(char_index);
+}
+```

@@ -1,6 +1,7 @@
 ---
 title: 'WebAssembly'
 date: 2020-08-11T22:07:55+08:00
+tags: ['wasm', 'Rust']
 ---
 
 # SSVM 简介
