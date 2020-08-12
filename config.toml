@@ -444,6 +444,7 @@ enableRobotsTXT = true
         # 位于 "assets/"
         # 或者
         # someJavascript = "https://cdn.example.com/some.js"
+        someJavascript = "baidu.js"
     #  页面 SEO 配置
     [params.page.seo]
       # 图片 URL
@@ -481,12 +482,12 @@ enableRobotsTXT = true
 
   #  网站分析配置
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "211918400"
       # 是否匿名化用户 IP
-      anonymizeIP = true
+      anonymizeIP = false
     # Fathom Analytics
     [params.analytics.fathom]
       id = ""
