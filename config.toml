@@ -7,7 +7,7 @@ theme = "LoveIt"
 hasCJKLanguage = true
 enableEmoji = true
 Paginate = 6 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = ""
+googleAnalytics = "G-97TKQKDH9W"
 enableRobotsTXT = true
 
 [menu]
@@ -485,7 +485,7 @@ enableRobotsTXT = true
     enable = true
     # Google Analytics
     [params.analytics.google]
-      id = "211918400"
+      id = "G-97TKQKDH9W"
       # 是否匿名化用户 IP
       anonymizeIP = false
     # Fathom Analytics
