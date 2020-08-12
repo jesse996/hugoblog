@@ -371,17 +371,17 @@ enableRobotsTXT = true
       # Disqus 评论系统设置
       [params.page.comment.disqus]
         # 
-        enable = true
+        enable = false
         # Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
         shortname = "Jesse"
       # Gitalk 评论系统设置
       [params.page.comment.gitalk]
         # 
         enable = false
-        owner = ""
-        repo = ""
-        clientId = ""
-        clientSecret = ""
+        owner = "jesse996"
+        repo = "jesse996.github.io"
+        clientId = "7ed1bcf500866b6540d3"
+        clientSecret = "157b70ff96cf7b2d595bb95265b902f817174783"
       # Valine 评论系统设置
       [params.page.comment.valine]
         enable = false
@@ -425,9 +425,9 @@ enableRobotsTXT = true
         enable = false
       #  Utterances 评论系统设置
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
-        repo = ""
+        repo = "jesse996/jesse996.github.io"
         issueTerm = "pathname"
         label = ""
         lightTheme = "github-light"

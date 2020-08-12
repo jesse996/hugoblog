@@ -60,3 +60,4 @@ draft: false
 -   [x] 第一行代码 Android 第二版
 -   [x] Java 编程思想
 -   [x] 数据结构教程
+-   [x] JavaScript 函数式编程
