@@ -384,8 +384,8 @@ enableRobotsTXT = true
       # Valine 评论系统设置
       [params.page.comment.valine]
         enable = false
-        appId = ""
-        appKey = ""
+        appId = "INI3WoInvuBqDhbYssM5bN7F-gzGzoHsz"
+        appKey = "JMKzYaRNR5ck0aapOYkC8yHS"
         placeholder = ""
         avatar = "mp"
         meta= ""
@@ -394,7 +394,7 @@ enableRobotsTXT = true
         visitor = true
         recordIP = true
         highlight = true
-        enableQQ = false
+        enableQQ = true
         serverURLs = ""
         #  emoji 数据文件名称, 默认是 "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
@@ -470,7 +470,7 @@ enableRobotsTXT = true
     bing = ""
     yandex = ""
     pinterest = ""
-    baidu = ""
+    baidu = "yJZ8DYA9pA"
 
   #  网站 SEO 配置
   [params.seo]
