@@ -7,7 +7,6 @@ theme = "LoveIt"
 hasCJKLanguage = true
 enableEmoji = true
 Paginate = 6 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = "G-97TKQKDH9W"
 enableRobotsTXT = true
 
 [menu]
@@ -281,7 +280,7 @@ enableRobotsTXT = true
     #  是否使用 twemoji
     twemoji = false
     # 是否使用 lightgallery
-    lightgallery = false
+    lightgallery = true
     #  是否使用 ruby 扩展语法
     ruby = true
     #  是否使用 fraction 扩展语法
@@ -558,9 +557,6 @@ enableRobotsTXT = true
 
 # 隐私信息配置
 [privacy]
-  #  Google Analytics 相关隐私 (被 params.analytics.google 替代)
-  [privacy.googleAnalytics]
-    # ...
   [privacy.twitter]
     enableDNT = true
   [privacy.youtube]
