@@ -588,3 +588,4 @@ enableRobotsTXT = true
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]
+
