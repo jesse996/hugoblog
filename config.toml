@@ -46,13 +46,21 @@ enableRobotsTXT = true
     title = ""
     weight = 4
   [[menu.main]]
+    identifier = "offer"
+    pre = ""
+    post = ""
+    name = "LeetCode"
+    url = "/leetcode"
+    title = ""
+    weight = 5
+  [[menu.main]]
     identifier = "about"
     pre = ""
     post = ""
     name = "关于"
     url = "/about"
     title = ""
-    weight = 5
+    weight = 6
 
 [sitemap]
   changefreq = "monthly"
