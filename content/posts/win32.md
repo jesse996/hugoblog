@@ -3,6 +3,7 @@ title: 'Win32'
 date: 2020-08-11T22:08:22+08:00
 draft: false
 tags: ['win32']
+keywords: ['win32教程', 'win32入门']
 ---
 
 win32 根据进程名获取进程 ID 或者终止进程：

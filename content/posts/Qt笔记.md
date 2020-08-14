@@ -2,6 +2,7 @@
 title: 'Qt笔记'
 date: 2020-08-11T22:19:48+08:00
 tags: ['c++', 'Qt']
+keywords: ['Qt', 'qt', 'qt教程']
 ---
 
 [Qt 快速入门系列教程](http://shouce.jb51.net/qt-beginning/)

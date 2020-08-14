@@ -2,6 +2,7 @@
 title: 'Cmake笔记'
 date: 2020-08-11T22:17:18+08:00
 tags: ['cmake']
+keywords: ['cmake']
 ---
 
 ### 文件结构

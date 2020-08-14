@@ -3,6 +3,7 @@ title: 'Manjaro安装后配置'
 date: 2019-01-10
 draft: false
 tags: ['Manjaro']
+keywords: ['manjaro', 'Manjaro']
 ---
 
 ## 修改源

@@ -3,6 +3,7 @@ title: 'Rust笔记'
 date: 2019-12-30T20:32:01+08:00
 draft: false
 tags: ['Rust']
+keywords: ['Rust','rust','rust笔记']
 ---
 
 不是每个 trait 都可以作为 tarit 对象被使用，这和类型大小是否确认有关。每个 trait 都包含一个隐式的类型参数 Self，代表实现该 tarit 的实际类型。Self 默认有一个隐式的 tarit 限定`?Sized`，形如 `Self:?Sized`。?Sized trait 包含了所有的动态大小类型金额所有的可确定大小的类型。Rust 中大多数类型都是可确定的，就是<T:Sized>。

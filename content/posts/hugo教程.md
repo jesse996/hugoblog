@@ -1,7 +1,7 @@
 ---
 title: 'Hugo教程'
 date: 2020-08-13T17:07:35+08:00
-draft: false
+keywords: ['hugo', 'hugo 中文', 'hugo中文文档', 'hugo教程']
 ---
 
 # 常用命令

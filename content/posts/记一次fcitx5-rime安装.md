@@ -3,6 +3,7 @@ title: '记一次fcitx5 Rime安装'
 date: 2020-01-10T20:33:37+08:00
 draft: false
 tags: ['Manjaro']
+keywords: ['fcitx5', 'rime', '输入法']
 ---
 
 # 安装
