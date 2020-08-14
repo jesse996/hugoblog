@@ -1,7 +1,6 @@
 ---
 title: 'Webhook教程'
 date: 2020-08-14T12:07:27+08:00
-draft: true
 ---
 
 # github webhook 是什么
