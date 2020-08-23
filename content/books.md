@@ -4,13 +4,9 @@ date: 2020-08-11T19:31:34+08:00
 draft: false
 ---
 
-> _素食则气不浊，独宿则神不浊，默坐则心不浊，读书则口不浊。_
+> _博观而约取，厚积而薄发。_
 >
-> <p style="text-align: right">——曾国藩</p>
-
-> _日子是一天天地走，书要一页页地读。_
->
-> <p style="text-align: right">——毕淑敏</p>
+> <p style="text-align: right">——苏轼</p>
 
 记录一下自己读过的书：
 
