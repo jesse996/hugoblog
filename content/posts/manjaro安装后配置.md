@@ -9,9 +9,9 @@ keywords: ['manjaro', 'Manjaro']
 ## 修改源
 
 ```
-sudo pacman-mirrors -i -c China -m rank //更新镜像排名
-sudo pacman -Syy //更新数据源
-sudo pacman -S archlinux-keyring//更新 archlinux 签名
+sudo pacman-mirrors -i -c China -m rank
+sudo pacman -Syy
+sudo pacman -S archlinux-keyring
 ```
 
 ### 设置 archlinuxcn 源。
@@ -80,7 +80,7 @@ mv 桌面 Desktop
 
 ---
 
-##安装 chrome
+## 安装 chrome
 
 ```
 sudo pacman -S google-chrome
@@ -90,8 +90,7 @@ sudo pacman -S google-chrome
 
 ## 安装和使用 oh-my-zsh
 
-安装
-oh-my-zsh 的配置
+### 安装 oh-my-zsh 的配置
 
 查看本地有哪几种 shell
 
@@ -101,7 +100,7 @@ cat /etc/shells
 
 manjaro 默认已经安装了 zsh
 
-安装 oh-my-zsh 的配置文件
+### 安装 oh-my-zsh 的配置文件
 
 ```
 #via curl
@@ -111,7 +110,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 ```
 
-替换 zsh 的配置文件为 oh-my-zsh
+### 替换 zsh 的配置文件为 oh-my-zsh
 
 ```
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
