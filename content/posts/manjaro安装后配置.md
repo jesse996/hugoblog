@@ -205,4 +205,4 @@ sudo pacman -S variety
 
 [KDE 美化和优化](https://zhuanlan.zhihu.com/p/100656626)
 
-[](https://zhuanlan.zhihu.com/p/89847601)
+[美化](https://zhuanlan.zhihu.com/p/89847601)
