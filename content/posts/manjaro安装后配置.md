@@ -195,6 +195,12 @@ archlinux-java status
 #sudo archlinux-java set java-14-jdk
 ```
 
+### 网易云音乐
+
+```bash
+yay -S iease-music
+```
+
 ## 美化
 
 ```bash
