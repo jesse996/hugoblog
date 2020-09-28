@@ -391,7 +391,7 @@ enableRobotsTXT = true
         clientSecret = "157b70ff96cf7b2d595bb95265b902f817174783"
       # Valine 评论系统设置
       [params.page.comment.valine]
-        enable = false
+        enable = true
         appId = "INI3WoInvuBqDhbYssM5bN7F-gzGzoHsz"
         appKey = "JMKzYaRNR5ck0aapOYkC8yHS"
         placeholder = ""
@@ -432,7 +432,7 @@ enableRobotsTXT = true
         enable = false
       #  Utterances 评论系统设置
       [params.page.comment.utterances]
-        enable = true
+        enable = false
         # owner/repo
         repo = "jesse996/jesse996.github.io"
         issueTerm = "pathname"
