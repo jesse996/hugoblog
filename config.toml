@@ -45,19 +45,19 @@ enableRobotsTXT = true
     url = "/books"
     title = ""
     weight = 4
-  [[menu.main]]
-    identifier = "offer"
-    pre = ""
-    post = ""
-    name = "LeetCode"
-    url = "/leetcode"
-    title = ""
-    weight = 5
+  # [[menu.main]]
+  #   identifier = "leetcode"
+  #   pre = ""
+  #   post = ""
+  #   name = "LeetCode"
+  #   url = "/leetcode"
+  #   title = ""
+  #   weight = 5
   [[menu.main]]
     identifier = "about"
     pre = ""
     post = ""
-    name = "关于"
+    name = "关于我"
     url = "/about"
     title = ""
     weight = 6
