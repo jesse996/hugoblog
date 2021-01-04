@@ -160,7 +160,7 @@ enableRobotsTXT = true
     # 网站创立年份
     since = 2020
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-    icp = "<a href='beian.miit.gov.cn'>鄂ICP备20000568号</a>"
+    icp = "<a href='https://beian.miit.gov.cn/'>鄂ICP备20000568号</a>"
     # 许可协议信息 (支持 HTML 格式)
     license = ''
 
